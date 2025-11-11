@@ -138,18 +138,29 @@ public class RasaReceiver : MonoBehaviour
 
             Debug.Log($"🎭 Emoción recibida: {emotion}");
 
+            // Avatar solo soporta: Sonreír, Enojado, Triste, Neutral, Hablar
             switch (emotion)
             {
+                case "smile":
+                case "sonreir":
                 case "alegre":
                 case "feliz":
                     avatarController.SetExpression("smile");
                     break;
+                case "angry":
                 case "enojado":
                     avatarController.SetExpression("angry");
                     break;
+                case "sad":
                 case "triste":
                     avatarController.SetExpression("sad");
                     break;
+                case "talk":
+                case "hablar":
+                case "speaking":
+                    avatarController.SetExpression("talk");
+                    break;
+                case "neutral":
                 default:
                     avatarController.SetExpression("neutral");
                     break;

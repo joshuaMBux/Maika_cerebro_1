@@ -28,3 +28,67 @@ stories:
   steps:
   - intent: help_request
   - action: action_send_to_unity
+- story: sorpresa
+  steps:
+  - intent: mood_surprised
+  - action: action_send_to_unity
+- story: miedo
+  steps:
+  - intent: mood_scared
+  - action: action_send_to_unity
+- story: confusion
+  steps:
+  - intent: mood_confused
+  - action: action_send_to_unity
+- story: emocion
+  steps:
+  - intent: mood_excited
+  - action: action_send_to_unity
+- story: cansancio
+  steps:
+  - intent: mood_tired
+  - action: action_send_to_unity
+- story: aburrimiento
+  steps:
+  - intent: mood_bored
+  - action: action_send_to_unity
+- story: amor
+  steps:
+  - intent: mood_love
+  - action: action_send_to_unity
+- story: pedir_chiste
+  steps:
+  - intent: ask_joke
+  - action: action_send_to_unity
+- story: pedir_motivacion
+  steps:
+  - intent: ask_motivation
+  - action: action_send_to_unity
+- story: preguntar_clima
+  steps:
+  - intent: ask_weather
+  - action: action_send_to_unity
+- story: preguntar_nombre
+  steps:
+  - intent: ask_name
+  - action: action_send_to_unity
+- story: preguntar_como_estas
+  steps:
+  - intent: ask_how_are_you
+  - action: action_send_to_unity
+- story: cumplido
+  steps:
+  - intent: compliment
+  - action: action_send_to_unity
+- story: insulto
+  steps:
+  - intent: insult
+  - action: action_send_to_unity
+- story: preguntar_edad
+  steps:
+  - intent: ask_age
+  - action: action_send_to_unity
+- story: preguntar_capacidades
+  steps:
+  - intent: ask_capabilities
+  - action: action_send_to_unity

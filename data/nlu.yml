@@ -52,3 +52,131 @@ nlu:
     - qué puedes hacer
     - cuéntame cómo me ayudas
     - qué servicios ofreces
+- intent: mood_surprised
+  examples: |
+    - no puedo creerlo
+    - qué sorpresa
+    - wow
+    - increíble
+    - no me lo esperaba
+    - estoy sorprendido
+    - me dejaste sin palabras
+    - no lo puedo creer
+- intent: mood_scared
+  examples: |
+    - tengo miedo
+    - me da miedo
+    - estoy asustado
+    - qué terror
+    - me da pánico
+    - estoy nervioso
+    - me preocupa mucho
+- intent: mood_confused
+  examples: |
+    - no entiendo
+    - estoy confundido
+    - no sé qué hacer
+    - estoy perdido
+    - no comprendo
+    - me siento desorientado
+    - qué significa esto
+- intent: mood_excited
+  examples: |
+    - estoy emocionado
+    - qué emoción
+    - no puedo esperar
+    - estoy muy entusiasmado
+    - qué ganas
+    - estoy ansioso de buena manera
+    - me muero de la emoción
+- intent: mood_tired
+  examples: |
+    - estoy cansado
+    - me siento agotado
+    - estoy exhausto
+    - no tengo energía
+    - necesito descansar
+    - estoy muy fatigado
+- intent: mood_bored
+  examples: |
+    - estoy aburrido
+    - qué aburrimiento
+    - no tengo nada que hacer
+    - me aburro
+    - esto es muy aburrido
+    - necesito algo interesante
+- intent: mood_love
+  examples: |
+    - te amo
+    - te quiero
+    - eres increíble
+    - me encantas
+    - te adoro
+    - eres lo mejor
+    - me haces muy feliz
+- intent: ask_joke
+  examples: |
+    - cuéntame un chiste
+    - dime algo gracioso
+    - hazme reír
+    - tienes algún chiste
+    - algo divertido
+    - quiero reírme
+- intent: ask_motivation
+  examples: |
+    - dame motivación
+    - necesito ánimo
+    - dime algo motivador
+    - inspírame
+    - necesito palabras de aliento
+    - motívame
+- intent: ask_weather
+  examples: |
+    - cómo está el clima
+    - qué tiempo hace
+    - va a llover
+    - hace frío
+    - cómo está el día
+- intent: ask_name
+  examples: |
+    - cómo te llamas
+    - cuál es tu nombre
+    - quién eres
+    - tu nombre
+    - cómo debo llamarte
+- intent: ask_how_are_you
+  examples: |
+    - cómo estás
+    - qué tal estás
+    - cómo te va
+    - cómo te sientes
+    - todo bien contigo
+- intent: compliment
+  examples: |
+    - eres genial
+    - eres muy inteligente
+    - qué bien lo haces
+    - eres increíble
+    - me caes muy bien
+    - eres la mejor
+- intent: insult
+  examples: |
+    - eres tonto
+    - no sirves
+    - eres inútil
+    - qué mal lo haces
+    - no me gustas
+- intent: ask_age
+  examples: |
+    - cuántos años tienes
+    - qué edad tienes
+    - cuándo naciste
+    - eres viejo
+    - eres joven
+- intent: ask_capabilities
+  examples: |
+    - qué sabes hacer
+    - cuáles son tus habilidades
+    - en qué eres bueno
+    - qué funciones tienes
+    - qué puedes hacer por mí

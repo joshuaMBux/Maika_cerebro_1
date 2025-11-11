@@ -5,8 +5,24 @@ intents:
   - mood_happy
   - mood_sad
   - mood_angry
+  - mood_surprised
+  - mood_scared
+  - mood_confused
+  - mood_excited
+  - mood_tired
+  - mood_bored
+  - mood_love
   - gratitude
   - help_request
+  - ask_joke
+  - ask_motivation
+  - ask_weather
+  - ask_name
+  - ask_how_are_you
+  - compliment
+  - insult
+  - ask_age
+  - ask_capabilities
 actions:
   - action_send_to_unity
 responses:
