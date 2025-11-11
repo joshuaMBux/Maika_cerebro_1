@@ -1,0 +1,54 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hola
+    - hola maika
+    - buenos días
+    - buenas
+    - hey
+    - muy buen día
+    - qué tal
+- intent: goodbye
+  examples: |
+    - adiós
+    - hasta luego
+    - nos vemos
+    - chau
+    - me despido
+- intent: mood_happy
+  examples: |
+    - estoy muy feliz hoy
+    - me siento genial
+    - estoy contento
+    - genial
+    - maravilloso
+    - todo va perfecto
+- intent: mood_sad
+  examples: |
+    - estoy triste
+    - me siento mal
+    - no me va bien
+    - estoy desanimado
+    - tuve un mal día
+- intent: mood_angry
+  examples: |
+    - estoy molesto
+    - me siento enojado
+    - qué rabia
+    - esto me frustra
+    - estoy furiosa
+- intent: gratitude
+  examples: |
+    - gracias
+    - muchas gracias maika
+    - te lo agradezco
+    - mil gracias
+    - eres muy amable
+- intent: help_request
+  examples: |
+    - me puedes ayudar
+    - necesito apoyo
+    - qué puedes hacer
+    - cuéntame cómo me ayudas
+    - qué servicios ofreces

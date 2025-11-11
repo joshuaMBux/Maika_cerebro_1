@@ -1,0 +1,14 @@
+version: "3.1"
+intents:
+  - greet
+  - goodbye
+  - mood_happy
+  - mood_sad
+  - mood_angry
+  - gratitude
+  - help_request
+actions:
+  - action_send_to_unity
+responses:
+  utter_greet:
+    - text: "Hola, soy MAIKA, tu asistente virtual."

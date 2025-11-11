@@ -1,0 +1,30 @@
+version: "3.1"
+stories:
+- story: saludo
+  steps:
+  - intent: greet
+  - action: action_send_to_unity
+- story: despedida
+  steps:
+  - intent: goodbye
+  - action: action_send_to_unity
+- story: alegria
+  steps:
+  - intent: mood_happy
+  - action: action_send_to_unity
+- story: tristeza
+  steps:
+  - intent: mood_sad
+  - action: action_send_to_unity
+- story: enojo
+  steps:
+  - intent: mood_angry
+  - action: action_send_to_unity
+- story: agradecimiento
+  steps:
+  - intent: gratitude
+  - action: action_send_to_unity
+- story: solicitud_ayuda
+  steps:
+  - intent: help_request
+  - action: action_send_to_unity

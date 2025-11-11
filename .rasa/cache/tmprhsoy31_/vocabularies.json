@@ -1,0 +1,31 @@
+{
+  "text": {
+    "hola": 4,
+    "maika": 5,
+    "buenos": 1,
+    "días": 2,
+    "buenas": 0,
+    "hey": 3
+  },
+  "intent": {
+    "greet": 0
+  },
+  "response": null,
+  "action_name": {
+    "action_listen": 6,
+    "action_restart": 7,
+    "action_session_start": 10,
+    "action_default_fallback": 4,
+    "action_deactivate_loop": 1,
+    "action_revert_fallback_events": 8,
+    "action_default_ask_affirmation": 2,
+    "action_default_ask_rephrase": 3,
+    "action_two_stage_fallback": 11,
+    "action_unlikely_intent": 12,
+    "action_back": 0,
+    "action_extract_slots": 5,
+    "action_send_to_unity": 9
+  },
+  "action_text": null,
+  "intent_response_key": null
+}
